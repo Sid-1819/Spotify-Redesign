@@ -77,8 +77,9 @@
   font-weight: 200;
   padding: 8px;
   border-radius: 8px;
-
-  background-color: rgb(119, 119, 119);
+  margin: 8px;
+  position: relative;
+  background-color: rgb(161, 158, 158);
 }
 
 .card img {
@@ -93,4 +94,12 @@
 .card p {
   font-size: small;
   font-weight: 400;
+}
+
+.play {
+  position: absolute;
+  top: 112px;
+  right: 16px;
+  opacity: 0;
+  transition: all 1s ease-out;
 }
