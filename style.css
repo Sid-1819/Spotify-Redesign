@@ -6,11 +6,11 @@
   font-family: "Roboto", sans-serif;
 }
 .left {
-  width: 30vw;
+  width: 30%;
   padding: 8px;
 }
 .right {
-  width: 70vw;
+  width: 70%;
 }
 .container {
   display: flex;
@@ -58,6 +58,7 @@
 .right {
   margin: 16px 0;
   padding: 8px;
+  position: relative;
 }
 
 .playlist {
@@ -102,4 +103,53 @@
   right: 16px;
   opacity: 0;
   transition: all 1s ease-out;
+}
+
+.signupbtn {
+  height: 32px;
+  border-radius: 20px;
+  padding-inline: 0px;
+  padding-block: 0px;
+  border-width: 0px;
+  width: 72px;
+  margin-right: 4px;
+  margin-left: 4px;
+  font-weight: bold;
+  background-color: rgb(4, 4, 165);
+  color: rgb(136, 136, 136);
+}
+.signupbtn:hover {
+  background-color: blue;
+  color: white;
+  /* width: 74px; */
+  /* height: 34px; */
+}
+
+.loginbtn {
+  height: 32px;
+  border-radius: 20px;
+  padding-inline: 0px;
+  padding-block: 0px;
+  border-width: 0px;
+  width: 72px;
+  margin-right: 4px;
+  margin-left: 4px;
+  font-weight: bold;
+  color: rgb(4, 4, 165);
+  background-color: rgb(216, 213, 213);
+}
+.loginbtn:hover {
+  color: blue;
+  background-color: white;
+  /* font-size: 14px; */
+  /* width: 74px; 
+  height: 34px; */
+}
+
+.playbar {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: aquamarine;
+  left: 0;
 }
