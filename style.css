@@ -152,4 +152,32 @@
   width: 100%;
   background-color: aquamarine;
   left: 0;
+  height: 40px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.buttons img {
+  width: 16px;
+  height: 16px;
+}
+
+.songlist {
+  padding: 8px;
+  /* display: flex;
+  flex-direction: column; */
+}
+.songlist ul li {
+  padding: 8px;
+  /* list-style: none; */
+  display: flex;
+  flex-direction: column;
 }
